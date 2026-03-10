@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de cadasrto</title>
+</head>
+<body>
+    <header>
+        <h1>Página de cadastro</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend> Crie sua conta! </legend>
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"
+            placeholder="Insira seu nome"
+            required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"
+            placeholder="fag@minha.fag.edu.br" 
+            required><br><br>
+
+            <label for="password">Senha (mínimo 8 caracteres):</label><br>
+            <input type="password" id="password" name="password" minlength="8"
+            required><br><br>
+
+            <b>Gênero</b><br>
+            <input type="radio" id="Feminino" name="Gênero" value="Feminino">
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" id="Masculino" name="Gênero" value="Masculino">
+            <label for="Masculino">Masculino</label><br><br>
+
+            <label for="Biografia">Biografia:</label><br>
+            <textarea id="Biografia" name="Biografia" rows="6" cols="50" 
+            placeholder="Fale um pouco sobre você:"></textarea><br><br>
+
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos"> Eu li e aceito os termos de serviço.</label><br><br>
+
+
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
