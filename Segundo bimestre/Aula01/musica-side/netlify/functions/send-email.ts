@@ -103,5 +103,8 @@ const handler: Handler = async (event: HandlerEvent) => {
     };
   }
 
+
 };
+
+export {handler};
 
